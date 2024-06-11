@@ -1,0 +1,97 @@
+html,
+body {
+  font-family: "Noto Sans TC", sans-serif, "Roboto Mono", monospace;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* added background-color */
+}
+
+header {
+  height: 50px;
+  box-shadow: 0px 5px 20px rgba(255, 0, 0, 0.72);
+}
+
+nav {
+  margin: 0 20px;
+  height: 100%;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-name {
+  font-weight: bolder;
+  margin: 0;
+}
+
+.fa-print {
+  color: red;
+}
+
+main {
+  margin: 0 auto;
+  width: 900px;
+  padding: 0 20px;
+}
+
+h2 {
+  padding-top: 30px;
+  margin: 10px auto;
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 25px;
+  margin: 10px auto;
+}
+
+h3 p {
+  font-size: 16px; /* increased font size */
+}
+
+h1 {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 32px; /* added font size */
+}
+
+section {
+  margin: 0 auto;
+}
+
+.fa-caret-down {
+  margin-left: 5px;
+}
+
+.picture {
+  margin: 20px auto;
+  height: 200px;
+  width: 200px;
+}
+
+.picture-img {
+  width: 100%;
+}
+
+.social {
+  text-align: center;
+}
+
+.link {
+  color: red;
+  margin: 3px;
+  text-decoration: none;
+}
+
+body {
+  font-size: 16px; /* decreased font size */
+}
+
+p {
+  font-size: 16px; /* added font size */
+}
+
+.li {
+  display: inline-block;
+}
