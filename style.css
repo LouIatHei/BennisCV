@@ -3,7 +3,7 @@ body {
   font-family: "Noto Sans TC", sans-serif, "Roboto Mono", monospace;
   margin: 0;
   padding: 0;
-  background-color: #ffffff; /* added background-color */
+  background-color: #afc1d6;
 }
 
 header {
@@ -11,22 +11,12 @@ header {
   box-shadow: 0px 5px 20px rgba(255, 0, 0, 0.72);
 }
 
-nav {
-  margin: 0 20px;
-  height: 100%;
-  padding: 0 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.nav-name {
-  font-weight: bolder;
-  margin: 0;
+.img {
+  height: 40px;
 }
 
 .fa-print {
-  color: red;
+  color: pink;
 }
 
 main {
@@ -35,25 +25,28 @@ main {
   padding: 0 20px;
 }
 
+h1 {
+  margin-top: 100px;
+  font-size: 36px;
+}
+
 h2 {
   padding-top: 30px;
   margin: 10px auto;
   font-size: 36px;
 }
 
-h3 {
-  font-size: 25px;
+h4 {
+  font-size: 30px;
   margin: 10px auto;
 }
 
-h3 p {
-  font-size: 16px; /* increased font size */
+h5 {
+  font-size: 30px;
 }
 
-h1 {
-  margin-top: 100px;
-  text-align: center;
-  font-size: 32px; /* added font size */
+h6 {
+  font-size: 30px;
 }
 
 section {
@@ -82,16 +75,4 @@ section {
   color: red;
   margin: 3px;
   text-decoration: none;
-}
-
-body {
-  font-size: 16px; /* decreased font size */
-}
-
-p {
-  font-size: 16px; /* added font size */
-}
-
-.li {
-  display: inline-block;
 }
